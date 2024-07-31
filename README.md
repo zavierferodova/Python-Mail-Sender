@@ -39,7 +39,8 @@ First of all you need to prepare spreadsheet data like example below,
   ```
 
 ### Templating
-You can modify subject and body of message on `template/subject.txt` and `template/body.txt` with custom content. And you can using columns as variable to replace message content like below.
+You can modify subject and body of message on `template/subject.txt` and `template/body.txt` with custom content. 
+And you can using columns as variable to replace message content, all columns converted to lowercase variable format you can use that like below,
 - **Input:**
   ```
   Hello {{name}} this is email subject
